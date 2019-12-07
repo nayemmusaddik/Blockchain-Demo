@@ -1,0 +1,130 @@
+[
+  {
+    "id": 0,
+    "name": "2020 Honda Accord",
+    "picture": "images/usc90hoc011d021001.png",
+    "price": "$23,870",
+    "brand": "Honda",
+    "color": "Black"
+  },
+  {
+    "id": 1,
+    "name": "2020 Toyota Corolla",
+    "picture": "images/usd00toc041g021001.png",
+    "price": "$19,600",
+    "brand": "Toyota",
+    "color": "Silver"
+  },
+  {
+    "id": 2,
+    "name": "2020 Mercedes-Benz Maybach",
+    "picture": "images/usc90mbcbw1a021001.png",
+    "price": "$173,000",
+    "brand": "Mercedes-Benz",
+    "color": "Black"
+  },
+  {
+    "id": 3,
+    "name": "2020 BMW M340",
+    "picture": "images/usd00bmc891a021001.png",
+    "price": "$54,000",
+    "brand": "BMW",
+    "color": "White"
+  },
+  {
+    "id": 4,
+    "name": "2020 Mercedes-Benz S-Class",
+    "picture": "images/usc90mbccg1a021001.png",
+    "price": "$94,250",
+    "brand": "Mercedes-Benz",
+    "color": "Silver"
+  },
+  {
+    "id": 5,
+    "name": "2020 Toyota Avalon",
+    "picture": "images/usd00toc011c021001.png",
+    "price": "$35,800",
+    "brand": "Toyota",
+    "color": "Grey"
+  },
+  {
+    "id": 6,
+    "name": "2020 Hyundai Elantra",
+    "picture": "images/usc90hyc021j021001.png",
+    "price": "$18,950",
+    "brand": "Hyundai",
+    "color": "White"
+  },
+  {
+    "id": 7,
+    "name": "2020 Mercedes-Benz AMG S 63",
+    "picture": "images/usc90mbcaz3a021001.png",
+    "price": "$151,600",
+    "brand": "Mercedes-Benz",
+    "color": "Black"
+  },
+  {
+    "id": 8,
+    "name": "2020 Nissan Altima",
+    "picture": "images/usc90nic041e021001.png",
+    "price": "$24,100",
+    "brand": "Nissan",
+    "color": "Black"
+  },
+  {
+    "id": 9,
+    "name": "2020 BMW M5",
+    "picture": "images/usc80bmc171a021001.png",
+    "price": "$102,700",
+    "brand": "BMW",
+    "color": "Blue"
+  },
+  {
+    "id": 10,
+    "name": "2020 Mercedes-Benz E-Class",
+    "picture": "images/usd00mbc682a021001.png",
+    "price": "$54,050",
+    "brand": "Mercedes-Benz",
+    "color": "White"
+  },
+  {
+    "id": 11,
+    "name": "2020 Chevrolet Malibu",
+    "picture": "images/usd00chc111e021001.png",
+    "price": "$23,870",
+    "brand": "Chevrolet",
+    "color": "Silver"
+  },
+  {
+    "id": 12,
+    "name": "2020 Kia Forte",
+    "picture": "images/usd00kic111g021001.png",
+    "price": "$17,790",
+    "brand": "Kia",
+    "color": "Navy Blue"
+  },
+  {
+    "id": 13,
+    "name": "2020 Mercedes-Benz CLA 250",
+    "picture": "images/usd00mbcbj3a021001.png",
+    "price": "$36,650",
+    "brand": "Mercedes-Benz",
+    "color": "Silver"
+  },
+  {
+    "id": 14,
+    "name": "2020 Honda Civic Si",
+    "picture": "images/usd00hoc182a021001.png",
+    "price": "$25,000",
+    "brand": "Honda",
+    "color": "Blue"
+  },
+  {
+    "id": 15,
+    "name": "2020 BMW 750",
+    "picture": "images/usd00bmc012a021001.png",
+    "price": "$102,650",
+    "brand": "BMW",
+    "color": "Silver"
+  }
+]
