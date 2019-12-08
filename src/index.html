@@ -9,7 +9,8 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <!-- style -->
+    <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,6 +19,41 @@
     <![endif]-->
   </head>
   <body>
+      <div id="carousel-example" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example" data-slide-to="1"></li>
+            <li data-target="#carousel-example" data-slide-to="2"></li>
+          </ol>
+        
+          <div class="carousel-inner">
+            <div class="item active">
+              <a href="#"><img src="images/slide1.jpg" /></a>
+              <div class="carousel-caption">
+                  <h3>Get Yours Now</h3>
+              </div>
+            </div>
+            <div class="item">
+              <a href="#"><img src="images/slide1.jpg" /></a>
+              <div class="carousel-caption">
+                  <h3>Get Yours Now</h3>
+              </div>
+            </div>
+            <div class="item">
+              <a href="#"><img src="images/slide1.jpg" /></a>
+              <div class="carousel-caption">
+                <h3>Get Yours Now</h3>
+              </div>
+            </div>
+          </div>
+        
+          <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-8 col-sm-push-2">
@@ -44,7 +80,7 @@
             <strong>Price</strong>: <span class="car-price">Golden Retriever</span><br/>
             <strong>Brand</strong>: <span class="car-brand">3</span><br/>
             <strong>Color</strong>: <span class="car-color">Warren, MI</span><br/><br/>
-            <button class="btn btn-default btn-buy" type="button" data-id="0">Buy</button>
+            <button class="btn btn theme_btn button_hover btn-buy" type="button" data-id="0">Buy</button>
           </div>
         </div>
       </div>

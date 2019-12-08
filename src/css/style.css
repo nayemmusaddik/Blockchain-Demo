@@ -1,0 +1,23 @@
+.button_hover {
+    border-radius: 0px;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    overflow: hidden;
+    border: 0px;
+    display: inline-block;
+    text-align: center;
+}
+.theme_btn {
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    background:
+    #226fb9;width: 200px;
+    margin-left: 15px;
+    margin-right: auto;
+}
