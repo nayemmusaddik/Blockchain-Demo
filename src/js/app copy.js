@@ -91,6 +91,16 @@ web3 = new Web3(App.web3Provider);
     });
     
   },
+  markDeal2: function(buyers, account) {
+    var dealInstance;
+
+    App.contracts.Deal.deployed().then(function(instance) {
+      dealInstance = instance;
+    
+      return dealInstance.getBuyers.call();
+    });
+    
+  },
 
   handleDeal: function(event) {
     event.preventDefault();
@@ -98,6 +108,27 @@ web3 = new Web3(App.web3Provider);
     var carId = parseInt($(event.target).data('id'));
 
     var dealInstance;
+    var amount = 1000000000000;
+
+    
+    web3.eth.getAccounts(function(error, accounts) {
+      if (error) {
+        console.log(error);
+      }
+    
+      var account = accounts[0];
+    
+      App.contracts.Deal.deployed().then(function(instance) {
+        dealInstance = instance;
+    
+        // Execute adopt as a transaction by sending account
+        return dealInstance.pay({from: account, value: 2000000000000000000}).send();
+      }).then(function(result) {
+        return App.markDeal2();
+      }).catch(function(err) {
+        console.log(err.message);
+      });
+    });
 
     web3.eth.getAccounts(function(error, accounts) {
       if (error) {
@@ -110,7 +141,7 @@ web3 = new Web3(App.web3Provider);
         dealInstance = instance;
     
         // Execute adopt as a transaction by sending account
-        return dealInstance.buy(carId,  {from: account, value: 2000000000000000000});
+        return dealInstance.buy(carId,  {from: account});
       }).then(function(result) {
         return App.markDeal();
       }).catch(function(err) {

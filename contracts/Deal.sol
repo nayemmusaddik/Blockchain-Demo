@@ -5,11 +5,9 @@ contract Deal {
 
 
 // Buying a car
-function buy(uint carId) public returns (uint) {
+function buy(uint carId) public payable returns (uint) {
   require(carId >= 0 && carId <= 15);
-
-  buyers[carId] = msg.sender;
-
+  buyers[carId] = msg.sender;  
   return carId;
 }
 
@@ -17,4 +15,8 @@ function buy(uint carId) public returns (uint) {
 function getBuyers() public view returns (address[16] memory) {
   return buyers;
 }
+
+function pay() public payable {
+}
+
 }
